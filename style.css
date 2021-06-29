@@ -1,0 +1,30 @@
+.grid{
+    height: 400px;
+    width: 400px;
+    display: flex; /*squares appear inline and not stacked over each other like in default arrangement*/
+    flex-wrap: wrap; /*to make squares wrap over each other so they fit in the grid we have just made*/
+    /* backgroun
+    d-color: antiquewhite; */
+
+}
+
+.grid div{ /*any div that goes inside the grid is styled in following way*/
+    height: 40px; /*the squares inside the grid*/
+    width: 40px; 
+    border:solid wheat 1px;
+
+}
+
+.valid{
+    background-color: green;
+    background-color: antiquewhite;
+
+}
+.bomb{
+    background-color: red;
+    background-color: antiquewhite;
+
+}
+.checked{
+    background-color: yellow;
+}
